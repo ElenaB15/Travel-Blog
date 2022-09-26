@@ -1,0 +1,129 @@
+@media screen and (max-width: 1150px) {
+  .icon-holder {
+    display: none;
+  }
+  .new {
+    display: flex;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .large {
+    font-size: 50px;
+  }
+  .main-list,
+  .second-list {
+    gap: 20px;
+  }
+  /* .second {
+    gap: 30px;
+  } */
+  .best,
+  .expect {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .large {
+    display: block;
+    text-align: center;
+  }
+  .flex-con {
+    flex-wrap: wrap;
+  }
+  .con-one {
+    width: 100%;
+  }
+  .con-two {
+    width: 70%;
+  }
+  .main-list a {
+    font-size: 14px;
+  }
+  .second-list a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .second-list a {
+    font-size: 8px;
+  }
+  .main-header .container {
+    max-width: 100%;
+    padding-left: 10px;
+  }
+  .gallery {
+    flex-wrap: wrap;
+  }
+  .one {
+    width: 100%;
+  }
+  .two,
+  .three {
+    width: 48%;
+  }
+  .second {
+    /* display: flex; */
+    justify-content: center;
+  }
+  .time {
+    width: 100%;
+    text-align: center;
+  }
+  .center {
+    display: inline-block;
+    padding: 0;
+  }
+
+  /* .left,
+  .right {
+    margin: 0;
+  } */
+}
+@media screen and (max-width: 550px) {
+  .main-list,
+  .second-list {
+    gap: 10px;
+  }
+  .main-list a {
+    font-size: 12px;
+  }
+  .two,
+  .three {
+    width: 100%;
+  }
+  .second-list li:first-child,
+  .second-list li:last-child {
+    display: none;
+  }
+  .con-one p {
+    padding-right: 0;
+  }
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+  }
+  .flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .flex p {
+    /* width: 100%; */
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container {
+    max-width: 90%;
+  }
+  .flex-con {
+    justify-content: center;
+  }
+  .second-nav {
+    display: none;
+  }
+  .con-two {
+    width: 90%;
+  }
+}
